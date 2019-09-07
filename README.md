@@ -9,8 +9,8 @@ The features of the unknown pattern are first fuzzified like the one done during
 
 The calibration of the MFs for optimal performance of the classifier is an interesting open-ended problem. Here, the MFs are selected from user’s own experience. However, for the best performance, the choice of levels and MFs of the levels may be obtained in the settings of an optimization problem. Any traditional or new meta-heuristic algorithm may be invoked to handle the present optimization problem, where a fitnees/objective function needs to be designed to maximize the classification accuracy for all the classes.
 
-Membership function used:
+# Membership function used:
 Gaussian membership function.
 
-Quantizer step size optimizatio:
+# Quantizer step size optimization:
 The step size of the quantizer has been optimized by taking that step size when the seperation between the clusters have been found maximum. For this a list consisting of all the step size and the corresponding seperation between the class centroids has been prepared first.
